@@ -12,3 +12,5 @@ def perform_operation(num1 , num2, operation):
         case "divide":
             result = "You can't divede with zero." if nuum2 == 0 else num1 / num2
             return result
+         case _:
+            return "Error: Invalid operation"
